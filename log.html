@@ -94,7 +94,9 @@
 <script src="assets/js/app.js"></script>
 <script type="text/javascript">
 	$('#login').click(function(){
-		window.location.href = "./index.html"
+		if("#doc-vld-email-2-1").val() == "cx"){
+			window.location.href = "./index.html"
+		}
 	})
 </script>
 </body>
